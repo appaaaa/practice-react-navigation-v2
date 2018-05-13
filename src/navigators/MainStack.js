@@ -1,12 +1,13 @@
 import { createStackNavigator } from 'react-navigation';
-import { HomeScreen, DetailScreen, LogoTitleScreen, RightButtonHeaderScreen } from '../screens'
+import { HomeScreen, DetailScreen, LogoTitleScreen, RightButtonHeaderScreen, ProblemScreen } from '../screens'
 import { colors } from '../styles'
 
 export default createStackNavigator({
     Home: HomeScreen,
     Detail: DetailScreen,
     LogoTitle: LogoTitleScreen,
-    RightButtonHeader: RightButtonHeaderScreen
+    RightButtonHeader: RightButtonHeaderScreen,
+    Problem: ProblemScreen
   },
   {
     initialRouteName: 'Home',

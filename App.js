@@ -10,7 +10,7 @@ import {
   Text,
   View
 } from 'react-native';
-import RootStack from './src/navigators/MainStack'
+import RootStack from './src/navigators/RootStack'
 // import RootStack from './src/screens'
 
 
