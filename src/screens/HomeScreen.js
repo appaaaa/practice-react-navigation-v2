@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Button, View, Text } from 'react-native';
-import {DetailScreen} from './index'
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
@@ -32,6 +31,10 @@ export default class HomeScreen extends React.Component {
         <Button 
           title='Problem Screen'
           onPress={()=> this.props.navigation.navigate('Problem')}
+        />
+        <Button 
+          title='Tab Screen'
+          onPress={()=> this.props.navigation.navigate('Tab')}
         />
 
       </View>

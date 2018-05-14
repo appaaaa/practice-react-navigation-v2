@@ -1,3 +1,12 @@
+export { default as HomeScreen } from './HomeScreen'
+export { default as DetailScreen } from './DetailScreen'
+export { default as LogoTitleScreen } from './LogoTitleScreen'
+export { default as RightButtonHeaderScreen } from './RightButtonHeaderScreen'
+export { default as ModalScreen } from './ModalScreen'
+export { default as ProblemScreen } from './ProblemScreen'
+export { default as Tab1Screen } from './Tab1Screen'
+export { default as Tab2Screen } from './Tab2Screen'
+
 // import { createStackNavigator } from 'react-navigation';
 
 // import HomeScreen from './HomeScreen'
@@ -28,9 +37,3 @@
 //   },
 // );
 
-export { default as HomeScreen } from './HomeScreen'
-export { default as DetailScreen } from './DetailScreen'
-export { default as LogoTitleScreen } from './LogoTitleScreen'
-export { default as RightButtonHeaderScreen } from './RightButtonHeaderScreen'
-export { default as ModalScreen } from './ModalScreen'
-export { default as ProblemScreen } from './ProblemScreen'
